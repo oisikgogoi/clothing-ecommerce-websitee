@@ -1,4 +1,4 @@
-ecommerce website created using react and firebase. it works perfectly fine . 
+**ecommerce website created using react and firebase.**
 
 users can perform all the actions that a normal ecommerce website allows us to perform . we can add thing to cart and even checkout . 
 
