@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --primary-color:#0D0D0D;
+  --secondary-color:#F2F2F2;
+  --tertiary-color:#BFBFBF;
+  --quartenary-color:#8C8C8C;
+  --least-color:#404040;
+}
+
+*{
+  font-family: Roboto;
+}
+
+button{
+  cursor: pointer;
+}
+
+.welcome{
+  height: 90vh;
+  width: 100%;
+  overflow-y: hidden;
+  
+}
+
+.welcome-container-lg , .welcome-container-sm-md{
+  height: 100%;
+}
+
+.welcome-img {
+  mix-blend-mode: luminosity;
+  transition: mix-blend-mode 0.3s ease;
+}
+
+.welcome 
+.frontpageTexts{
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frontpageTexts button{
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+ @media  (max-width:640px) {
+    nav {
+      padding: .5rem .5rem;
+      font-size: 1rem; /* 10px */
+    }
+
+    .card-addtocart-btn{
+      padding: 4px 1px;
+      font-size: small;
+    }
+  }
+
+  .allbtn{
+    border: 1px solid rgb(218, 218, 218);
+  }
+
+  .card-desc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: var(--least-color);
+  }
+
+
+  .view-all-products-btn{
+      color: var(--primary-color);
+      font-weight: 200;
+
+  }
+
+   .card{
+    box-shadow: 1px 1px 8px 1px rgb(227, 226, 226);
+  } 
+
+  .card-bottom{
+    padding: 1rem;
+  }
+
+.card-addtocart-btn{
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+
+  transition: .3s linear;
+
+}
+
+.card-addtocart-btn:hover{
+    color: grey;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.navLinksInactive{
+  font-weight: 400;
+}
+
+.image-loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #333;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+  margin: 100px auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
